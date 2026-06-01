@@ -10,17 +10,6 @@ Convert an image or video from dark mode to light mode using [ffmpeg](https://ww
 ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
 ```
 
-<h4>Unordered List</h4>
-
-- Item 1
-- Item 2
-- Item 3
-
-<h4>Ordered List</h4>
-
-1. Step 1
-1. Step 2
-1. Step 3
 
 <h4>Track List</h4>
 
